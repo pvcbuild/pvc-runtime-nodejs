@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/pvcbuild/pvc-runtime-nodejs/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/pvcbuild/pvc-runtime-nodejs</projectUrl>
+    <iconUrl>http://i.imgur.com/9F9yb22.png</iconUrl>
+    <description>$description$</description>
+    <copyright>Copyright 2014</copyright>
+    <tags>PVC runtime plugin nodejs edge</tags>
+  </metadata>
+  <files>
+     <file src="bin\Debug\Pvc.Runtime.NodeJs.dll" target="lib\net45" />
+     <file src="bin\Debug\edge\x64\edge.node" target="content\edge\x64\edge.node" />
+     <file src="bin\Debug\edge\x86\edge.node" target="content\edge\x86\edge.node" />
+     <file src="bin\Debug\node_modules\" target="content\node_modules" />
+  </files>
+</package>
